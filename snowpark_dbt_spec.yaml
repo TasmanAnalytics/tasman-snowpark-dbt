@@ -7,5 +7,5 @@ spec:
           "python",
           "/usr/dbt/entrypoint.py",
           "--command",
-          "dbt run --target snowpark",
+          "dbt build --target snowpark",
         ]
