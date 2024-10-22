@@ -1,7 +1,7 @@
 spec:
   containers:
     - name: dbt-job
-      image: tasman-au81587.registry.snowflakecomputing.com/dbt_snowpark_db/jaffle_shop_snowpark/image_repository/dbt-snowpark
+      image: xxxxx-xxxxx.registry.snowflakecomputing.com/dbt_snowpark_db/jaffle_shop_snowpark/image_repository/dbt-snowpark
       command:
         [
           "python",
