@@ -49,9 +49,9 @@ use role SECURITYADMIN ;
 grant role DBT_SNOWPARK_ROLE to user <YOUR_USER> ;
 
 
---------------------
--- Snowpark Stuff --
---------------------
+------------------------
+-- Snowpark Resources --
+-----------------------
 
 -------------------------------
 -- Grant Create Compute Pool --
