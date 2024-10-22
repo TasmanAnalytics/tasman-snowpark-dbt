@@ -1,0 +1,1 @@
+git+https://github.com/dbt-labs/dbt-snowflake.git@v1.9.0b1

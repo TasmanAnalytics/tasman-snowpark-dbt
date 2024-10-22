@@ -1,0 +1,11 @@
+spec:
+  containers:
+    - name: dbt-job
+      image: xxxxx-xxxxx.registry.snowflakecomputing.com/dbt_snowpark_db/jaffle_shop_snowpark/image_repository/dbt-snowpark
+      command:
+        [
+          "python",
+          "/usr/dbt/entrypoint.py",
+          "--command",
+          "dbt build --target snowpark",
+        ]
